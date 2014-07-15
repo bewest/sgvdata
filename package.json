@@ -1,6 +1,6 @@
 {
   "name": "sgvdata",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utilities to deal with serum glucose values.",
   "main": "index.js",
   "scripts": {
