@@ -16,7 +16,7 @@ function mapper(fn, strict) {
 }
 
 function format ( ) {
-  return mapper(sync.text.format);
+  return es.pipeline(mapper(sync.text.format), es.join('\n'));
 }
 
 function parse ( ) {
