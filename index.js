@@ -23,8 +23,8 @@ function parse ( ) {
   return es.pipeline(es.split('\n'), mapper(sync.text.parse), mapper(sync.json.echo));
 }
 
-function lint ( ) {
-  return mapper(sync.json.echo, {strict: true});
+function lint (opts) {
+  return mapper(sync.json.echo, {strict: opts ? opts.strict : true});
 }
 
 module.exports.sync = sync;
