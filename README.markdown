@@ -59,3 +59,8 @@ Parse all text elements in stream, emitting new json objects.
 
 ### lint - `lint(opts) - <WritableStream>`
 Echo all sgv elements in stream, optionally throwing errors.
+#### options
+
+* `strict` - true - throw errors on invalid elements
+
+EG: `{ strict: true }`
