@@ -24,7 +24,8 @@
   "config": {
     "blanket": {
       "data-cover-never": [
-        "node"
+        "node",
+        "tests/compare"
       ],
       "pattern": [
         "tests",

@@ -1,3 +1,4 @@
+'use strict';
 
 var should = require('should');
 
@@ -16,6 +17,9 @@ describe('lib/protobuf', function ( ) {
   var pb = require('../').sync.protobuf;
   it('should exist', function ( ) {
     pb.should.be.ok;
+    pb( ).should.be.ok;
+    pb.model( ).should.be.ok;
+    pb.model(pb.model( )).should.be.ok;
     pb.format.should.be.ok;
     pb.parse.should.be.ok;
   });

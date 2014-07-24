@@ -1,3 +1,4 @@
+'use strict';
 var build = require('../lib/protobuf/');
 
 if (!module.parent) {
