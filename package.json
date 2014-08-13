@@ -24,7 +24,8 @@
   "config": {
     "blanket": {
       "data-cover-never": [
-        "node"
+        "node",
+        "tests/compare"
       ],
       "pattern": [
         "tests",
@@ -57,6 +58,7 @@
     "mocha-lcov-reporter": "0.0.1"
   },
   "dependencies": {
-    "event-stream": "~3.1.5"
+    "event-stream": "~3.1.5",
+    "protobufjs": "~3.2.0"
   }
 }
