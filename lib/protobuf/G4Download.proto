@@ -1,7 +1,3 @@
-option java_package = "com.nightscout.core.protobuf";
-
-option java_outer_classname = "G4Download";
-
 message CookieMonsterG4Download {
     repeated CookieMonsterG4EGV sgv = 1; // Glucose records as reported by the G4
     optional GlucoseUnit units = 2; // Units reported by the device
