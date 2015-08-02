@@ -1,6 +1,6 @@
 {
   "name": "sgvdata",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Utilities to deal with sensor glucose values.",
   "main": "index.js",
   "scripts": {
