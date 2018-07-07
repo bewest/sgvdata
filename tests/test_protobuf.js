@@ -11,7 +11,7 @@ describe('lib/protobuf', function ( ) {
     "date": 1405387141
   };
   var hex = '0a18323031342d30372d31355430313a31393a30312e3030305a107b18002001';
-  var buf = new Buffer(hex, 'hex');
+  var buf = new Buffer.from(hex, 'hex');
   var tab = '2014-07-14T18:19:01-0700\t1405387141\t123\t\ttest';
   var text = require('../').sync;
   var pb = require('../').sync.protobuf;

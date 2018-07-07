@@ -1,6 +1,6 @@
 {
   "name": "sgvdata",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utilities to deal with sensor glucose values.",
   "main": "index.js",
   "scripts": {
@@ -50,15 +50,16 @@
     ]
   },
   "devDependencies": {
-    "should": "~4.0.4",
-    "mocha": "~1.20.1",
     "blanket": "~1.1.6",
-    "travis-cov": "~0.2.5",
-    "coveralls": "~2.11.1",
-    "mocha-lcov-reporter": "0.0.1"
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "0.0.1",
+    "should": "~4.0.4",
+    "travis-cov": "~0.2.5"
   },
   "dependencies": {
     "event-stream": "~3.1.5",
-    "protobufjs": "~3.2.0"
+    "protobufjs": "^5.0.3",
+    "pug": "^2.0.3"
   }
 }
