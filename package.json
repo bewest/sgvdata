@@ -1,14 +1,15 @@
 {
   "name": "sgvdata",
-  "version": "0.1.0",
+  "version": "0.3.0-alpha",
   "description": "Utilities to deal with sensor glucose values.",
+  "license": "GPL-3.0-or-later",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bewest/sgvdata.git"
+    "url": "git://github.com/nightscout/sgvdata.git"
   },
   "keywords": [
     "sgv",
@@ -17,9 +18,8 @@
     "format"
   ],
   "author": "Ben West",
-  "license": "GPL",
   "bugs": {
-    "url": "https://github.com/bewest/sgvdata/issues"
+    "url": "https://github.com/nightscout/sgvdata/issues"
   },
   "config": {
     "blanket": {
@@ -50,15 +50,16 @@
     ]
   },
   "devDependencies": {
-    "should": "~4.0.4",
-    "mocha": "~1.20.1",
-    "blanket": "~1.1.6",
-    "travis-cov": "~0.2.5",
-    "coveralls": "~2.11.1",
-    "mocha-lcov-reporter": "0.0.1"
+    "blanket": "^1.2.3",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "should": "^13.2.3",
+    "travis-cov": "^0.2.5"
   },
   "dependencies": {
-    "event-stream": "~3.1.5",
-    "protobufjs": "~3.2.0"
+    "event-stream": "^4.0.1",
+    "protobufjs": "^5.0.3",
+    "pug": "^2.0.3"
   }
 }

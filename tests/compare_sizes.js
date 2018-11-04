@@ -105,7 +105,7 @@ if (!module.parent) {
     "device": "xxx-test",
   }, 'propose_direction_sgv_time_offset');
 
-  var ser = new Buffer("xxx-test");
+  var ser = new Buffer.from("xxx-test");
   contrast({
     "sgv": 123,
     "timestamp": d.getTime( ),
